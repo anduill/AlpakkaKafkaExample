@@ -19,7 +19,6 @@ libraryDependencies ++= Seq(
 
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "io.circe" %% "circe-optics" % "0.9.3",
-  "com.ovoenergy" %% "fs2-kafka" % "0.19.1",
   "com.typesafe.akka" %% "akka-stream-kafka" % "0.21.1",
   "org.apache.kafka" %% "kafka" % kafkaVersion exclude ("org.slf4j", "slf4j-log4j12"),
   "io.confluent" % "kafka-avro-serializer" % "5.1.0")
